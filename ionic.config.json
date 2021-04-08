@@ -1,0 +1,7 @@
+{
+  "name": "Oopz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

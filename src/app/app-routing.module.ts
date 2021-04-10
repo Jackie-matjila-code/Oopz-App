@@ -26,7 +26,11 @@ const routes: Routes = [
   {
     path: 'login',
     loadChildren: () => import('./Admin/login/login.module').then( m => m.LoginPageModule)
+  },  {
+    path: 'payment',
+    loadChildren: () => import('./Client/payment/payment.module').then( m => m.PaymentPageModule)
   },
+
 
 
 ];

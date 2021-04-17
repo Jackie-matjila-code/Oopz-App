@@ -1,10 +1,12 @@
-body {
-  background-color: #ebecf0;
+.body {
+
+background-color: #ebecf0;
 justify-content: center;
 align-items: center;
 height: 100vh;
 display: flex;
 background-image: url(../../../assets/doc.jpg);
+
 }
 body, p, input, select, textarea, button {
   font-family: 'Lato', sans-serif;
@@ -21,6 +23,8 @@ form {
   margin: 0 auto;
 border-radius: 20px;
 box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+
+
 }
 .segment {
   padding: 10px 0;

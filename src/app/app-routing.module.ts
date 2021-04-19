@@ -30,6 +30,22 @@ const routes: Routes = [
     path: 'payment',
     loadChildren: () => import('./Client/payment/payment.module').then( m => m.PaymentPageModule)
   },
+  {
+    path: 'about',
+    loadChildren: () => import('./Client/about/about.module').then( m => m.AboutPageModule)
+  },
+  {
+    path: 'prep',
+    loadChildren: () => import('./Client/prep/prep.module').then( m => m.PrepPageModule)
+  },
+  {
+    path: 'how-it-works',
+    loadChildren: () => import('./Client/how-it-works/how-it-works.module').then( m => m.HowItWorksPageModule)
+  },
+  {
+    path: 'home-info',
+    loadChildren: () => import('./Client/home-info/home-info.module').then( m => m.HomeInfoPageModule)
+  },
 
 
 

@@ -1,111 +1,111 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Verdana;
-}
+// * {
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: border-box;
+//     font-family: Verdana;
+// }
 
-// ********************** code Start here **********************
-.nav {
-    // background-color: rgba(0, 116, 248, 0.877);
-    background-color: #48b4e0;
-    height: 12%;
-}
+// // ********************** code Start here **********************
+// .nav {
+//     // background-color: rgba(0, 116, 248, 0.877);
+//     background-color: #48b4e0;
+//     height: 12%;
+// }
 
-.nev_container {
-    margin: auto 10% auto auto;
-}
+// .nev_container {
+//     margin: auto 10% auto auto;
+// }
 
-.nav-item {
-    a {
-        color: white;
-        font-size: 20px;
-    }
-}
+// .nav-item {
+//     a {
+//         color: white;
+//         font-size: 20px;
+//     }
+// }
 
-#header {
-    width: 100%;
-    height: 100vh;
-    background: url('../../../assets/background.jfif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+// #header {
+//     width: 100%;
+//     height: 100vh;
+//     background: url('../../../assets/background.jfif');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center;
+// }
 
-#cover {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100vh;
-    z-index: 1;
-    background-color: rgb(0, 0, 0, 0.5);
-}
+// #cover {
+//     position: absolute;
+//     top: 0%;
+//     left: 0%;
+//     width: 100%;
+//     height: 100vh;
+//     z-index: 1;
+//     background-color: rgb(0, 0, 0, 0.5);
+// }
 
-.banner-area {
-    width: 100%;
-    height: 100vh;
-    background-size: 0%;
-    background-repeat: no-repeat;
-    position: absolute;
-    z-index: 2;
-}
+// .banner-area {
+//     width: 100%;
+//     height: 100vh;
+//     background-size: 0%;
+//     background-repeat: no-repeat;
+//     position: absolute;
+//     z-index: 2;
+// }
 
-.content-area {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+// .content-area {
+//     height: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
 
-.content {
-    text-align: center;
-}
+// .content {
+//     text-align: center;
+// }
 
-.content h1 {
-    font-size: 50px;
-    color: white;
-}
+// .content h1 {
+//     font-size: 50px;
+//     color: white;
+// }
 
-.content span {
-    color: rgb(57, 194, 16);
-    font-size: 60px;
-    // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family: 'Times New Roman', Times, serif;
-}
+// .content span {
+//     color: rgb(57, 194, 16);
+//     font-size: 60px;
+//     // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+//     font-family: 'Times New Roman', Times, serif;
+// }
 
-.btn_group {
-    position: absolute;
-    bottom: 30%;
-    left: 50%;
-    transform: translate(-50%, -30%);
-    z-index: 2;
-}
+// .btn_group {
+//     position: absolute;
+//     bottom: 30%;
+//     left: 50%;
+//     transform: translate(-50%, -30%);
+//     z-index: 2;
+// }
 
-.btn_one {
-    // background-color: rgba(0, 116, 248, 0.877);
-    background-color: #48b4e0;
-}
+// .btn_one {
+//     // background-color: rgba(0, 116, 248, 0.877);
+//     background-color: #48b4e0;
+// }
 
-.btn_two {
-    background-color: transparent;
-}
+// .btn_two {
+//     background-color: transparent;
+// }
 
-.btns {
-    border-radius: 15px;
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 135%;
-    padding: 15px 40px;
-    border: solid #48b4e0 1px;
-    text-transform: uppercase;
-    text-decoration: none;
-    outline: none;
-    overflow: hidden;
-}
+// .btns {
+//     border-radius: 15px;
+//     font-family: 'Oswald', sans-serif;
+//     color: white;
+//     font-size: 135%;
+//     padding: 15px 40px;
+//     border: solid #48b4e0 1px;
+//     text-transform: uppercase;
+//     text-decoration: none;
+//     outline: none;
+//     overflow: hidden;
+// }
 
 
-/*
+
 .intro{
   height: 590px;
   width: 100%;
@@ -199,4 +199,4 @@ p{
       padding: 7px 15px;
   }
 
-}*/
+}

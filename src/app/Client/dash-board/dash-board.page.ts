@@ -12,10 +12,10 @@ export class DashBoardPage implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    
+
   }
       login(){
-      // this.router.navigateByUrl('login');
+       this.router.navigateByUrl('login');
       }
 
       register(){

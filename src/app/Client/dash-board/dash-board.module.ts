@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { DashBoardPageRoutingModule } from './dash-board-routing.module';
 
 import { DashBoardPage } from './dash-board.page';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    DashBoardPageRoutingModule
+    DashBoardPageRoutingModule,
+    MatSidenavModule
   ],
   declarations: [DashBoardPage]
 })

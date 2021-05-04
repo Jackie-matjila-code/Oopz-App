@@ -15,6 +15,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent],
@@ -23,7 +24,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule, // firestore
     AngularFirestoreModule, // auth
-    AngularFireStorageModule, BrowserAnimationsModule, // storage
+    AngularFireStorageModule, // storage
+    BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],

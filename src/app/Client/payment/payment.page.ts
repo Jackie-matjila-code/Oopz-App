@@ -9,10 +9,9 @@ declare var paypal;
 })
 export class PaymentPage implements OnInit {
 
-@ViewChild('paypal', { static: true })
 
   constructor() {
-   
+
   }
 
   ngOnInit() {

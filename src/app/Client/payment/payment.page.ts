@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+
+declare var paypal;
 
 @Component({
   selector: 'app-payment',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaymentPage implements OnInit {
 
-  constructor() { }
+@ViewChild('paypal', { static: true })
+
+  constructor() {
+   
+  }
 
   ngOnInit() {
   }

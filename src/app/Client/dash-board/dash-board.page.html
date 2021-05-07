@@ -1,4 +1,5 @@
 <mat-drawer-container class="example-container" autosize>
+
     <mat-drawer #drawer class="example-sidenav" mode="Over">
         <p>Auto-resizing sidenav</p>
         <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
@@ -15,7 +16,7 @@
             <div class="nev_container">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" routerLink="/home-info">Home </a>
+                        <a class="nav-link" routerLink="/dash-board">Home </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" routerLink="/about">About Us</a>
@@ -55,7 +56,7 @@
 
         <div class="btn_group">
             <button class="btns btn_one " (click)="register()">SIGN UP</button>
-            <button class=" btns btn_two" (click)="drawer.toggle()">SIGN IN</button>
+            <button class=" btns btn_two" (click)="login()">SIGN IN</button>
         </div>
 
     </section>
